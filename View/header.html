@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta charset="utf-8">
+    <title>baLog</title>
+    
+    <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="../index.php">BaLOG</a>
+       </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="../index.php">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ügyfelek <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../View/allcustomers.php">Összes ügyfél lekérdezése</a></li>
+              <li><a href="../View/searchusers.php">Ügyfél keresése</a></li>
+              <li><a href="../View/ujugyfel.php">Új ügyfél felvétele</a></li>
+            </ul>
+  
+  
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Zálog<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../View/zalogositas.php">Zálogosítás</a></li>
+              <li><a href="../View/kivaltas.php">Kiváltás</a></li>
+              
+            </ul>
+  
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Értesítők<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../View/kenyszerview.php">Mai  napon lejáró zálogjegyek</a></li>
+              <li><a href="../View/alarmlista.php">Közelgő lejárat(10 nap)</a></li>
+          
+            </ul>
+  
+  
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Egyéb<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../View/admininsert.php">Admin felvétele</a></li>
+              <li><a href="../View/penzforgalom.php">Pénzforgalom</a></li>
+              <li><a href="../View/arfolyamrogzites.php">Árfolyam rögzítés</a></li>
+              <li><a href="../View/olvasztas.php">Olvasztásra küldendő</a></li>
+            </ul>
+  
+  
+            
+          </li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+  
+          <li><a href="../../BaLog/logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
