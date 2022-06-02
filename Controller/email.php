@@ -19,7 +19,7 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SMTP titkosítás
 $mail->Port = 465; // SMTP port
 
 $mail->Username = 'taylordzsi.g@gmail.com'; // SMTP felhasználo
-$mail->Password = 'Gittaszabo1991'; // SMTP jelszo
+$mail->Password = ''; // SMTP jelszo
 
 $mail->From = 'taylordzsi.g@gmail.com'; // Felado e-mail cime
 $mail->FromName = 'BaLog Zálog'; // Felado neve
